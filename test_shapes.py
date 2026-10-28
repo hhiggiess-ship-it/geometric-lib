@@ -73,7 +73,3 @@ class TriangleTestCase(unittest.TestCase):
 
     def test_perimeter_zero(self):
         self.assertEqual(triangle.perimeter(0, 0, 0), 0)
-
-
-if __name__ == "__main__":
-    unittest.main()
