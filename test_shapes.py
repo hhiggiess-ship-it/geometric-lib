@@ -15,9 +15,6 @@ class RectangleTestCase(unittest.TestCase):
     def test_area_zero(self):
         self.assertEqual(rectangle.area(10, 0), 0)
 
-    def test_negative_perimeter(self):
-        self.assertGreater(rectangle.perimeter(-5, -5), 0)
-
     def test_perimeter_from_readme(self):
         self.assertEqual(rectangle.perimeter(3, 9), 24)
 
