@@ -18,4 +18,4 @@ def perimeter(a):
 
     возвращает: периметр (int)
     """
-    return 4 * a
+    return 3 * a
